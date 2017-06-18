@@ -5,11 +5,14 @@ const lessToJs = require('less-vars-to-js');
 const themeVariables = lessToJs(fs.readFileSync(path.join(__dirname, './scripts/ant-theme-vars.less'), 'utf8'));
 
 // lessToJs does not support @icon-url: "some-string", so we are manually adding it to the produced themeVariables js object here
-//themeVariables["@icon-url"] = "'../assets/fonts/iconfont'";
+themeVariables["@icon-url"] = "'http://localhost:8080/fonts/iconfont'";
 
 module.exports = {
   context: __dirname,
   entry: './scripts/index.js',
+  devServer: {
+    contentBase: path.join(__dirname, './')
+  },
   output: {
     filename: 'bundle.js',
     path: path.join(__dirname, 'build')
@@ -43,7 +46,8 @@ module.exports = {
           {loader: "css-loader"},
           {loader: "less-loader",
             options: {
-              modifyVars: themeVariables
+              modifyVars: themeVariables,
+              root: path.resolve(__dirname, './')
             }
           }
         ]
