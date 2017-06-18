@@ -5,16 +5,25 @@
     "start": "webpack --watch"
   },
   "dependencies": {
+    "antd": "^2.11.1",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
+  },
+  "devDependencies": {
     "babel-core": "^6.24.1",
     "babel-loader": "^7.0.0",
+    "babel-plugin-import": "^1.2.1",
     "babel-plugin-transform-object-rest-spread": "^6.23.0",
     "babel-plugin-transform-strict-mode": "^6.22.0",
     "babel-preset-env": "^1.5.1",
     "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.4",
+    "less": "^2.7.2",
+    "less-loader": "^4.0.4",
+    "less-vars-to-js": "^1.1.2",
     "prop-types": "^15.5.10",
-    "react": "^15.5.4",
     "react-addons-test-utils": "^15.5.1",
-    "react-dom": "^15.5.4",
+    "style-loader": "^0.18.2",
     "webpack": "^2.6.1"
   }
 }
