@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import { Button } from 'antd';
+import { Button, Icon } from 'antd';
 
 class WelcomeMessage extends React.Component {
   constructor() {
@@ -21,11 +21,14 @@ class WelcomeMessage extends React.Component {
         <h1>{message}</h1>
         <Button
           type="primary"
+          icon="check"
           onClick={() => {
             this.setState({
               clicks: clicks + 1
             });
-          }}>Click me</Button>
+          }}>
+            Click me
+        </Button>
         <h2>{clicks} click{clicks == 1 ? '' : 's'}</h2>
       </div>
     );

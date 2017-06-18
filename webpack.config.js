@@ -10,12 +10,9 @@ themeVariables["@icon-url"] = "'http://localhost:8080/fonts/iconfont'";
 module.exports = {
   context: __dirname,
   entry: './scripts/index.js',
-  devServer: {
-    contentBase: path.join(__dirname, './')
-  },
   output: {
     filename: 'bundle.js',
-    path: path.join(__dirname, 'build')
+    path: path.join(__dirname, './')
   },
   resolve: {
     modules: ['scripts', 'node_modules']
@@ -53,5 +50,5 @@ module.exports = {
         ]
       }
     ]
-  }
+  },
 };
