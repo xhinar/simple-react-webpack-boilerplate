@@ -1,9 +1,7 @@
 Simple React, webpack boilerplate with Ant Design
 ====================================
 
-It doesn't get much simpler than this. Spin up your front-end environment with ease.
-
-This is meant to be a demo of how to customize [Ant Design](https://ant.design/docs/react/customize-theme).
+This is meant to supplement [this article](https://medium.com/@GeoffMiller/how-to-customize-ant-design-with-react-webpack-the-missing-guide-c6430f2db10f) on how to customize [Ant Design](https://ant.design/docs/react/customize-theme).
 
 ## Setup
 
