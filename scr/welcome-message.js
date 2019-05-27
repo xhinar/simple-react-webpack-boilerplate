@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 import { Button, Icon } from 'antd';
+import styles from './welcome-message.less';
 
 class WelcomeMessage extends React.Component {
   constructor() {
@@ -18,7 +19,7 @@ class WelcomeMessage extends React.Component {
 
     return (
       <div>
-        <h1>{message}</h1>
+        <h1 className={styles.font_red_30px}>{message}</h1>
         <Button
           type="primary"
           icon="check"

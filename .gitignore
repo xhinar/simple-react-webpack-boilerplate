@@ -1,4 +1,6 @@
 build/
 node_modules/
+.history/
 .DS_Store
 .idea
+package-lock.json
