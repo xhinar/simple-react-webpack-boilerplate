@@ -57,3 +57,5 @@ Turn on the CSS modules mode
 * https://sandny.com/2018/02/26/how-to-load-antd-components-without-loading-the-whole-library/
 ### singlespa
 * https://github.com/CanopyTax/single-spa.js.org/blob/master/docs/starting-from-scratch.md
+* https://github.com/alocke12992/single-spa-starting-from-scratch
+* https://github.com/me-12/single-spa-portal-example.git
