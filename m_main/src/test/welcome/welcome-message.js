@@ -30,6 +30,7 @@ class WelcomeMessage extends React.Component {
           }}>
             Click me
         </Button>
+        <Icon type="paycircle" />
         <h2>{clicks} click{clicks == 1 ? '' : 's'}</h2>
       </div>
     );

@@ -48,3 +48,14 @@ Turn on the CSS modules mode
 
 * Forked from [Geoff Miller](https://medium.com/@geoffmiller)'s [boilerplate](https://github.com/geoffmiller/simple-react-webpack-boilerplate)
 * Forked from [Yefim Vedernikoff](https://twitter.com/yefim)'s [boilerplate](https://github.com/yefim/simple-react-webpack-boilerplate)
+
+## Links
+### antd
+* https://medium.com/@GeoffMiller/how-to-customize-ant-design-with-react-webpack-the-missing-guide-c6430f2db10f
+#### babel
+* https://github.com/ant-design/babel-plugin-import/issues/266
+* https://sandny.com/2018/02/26/how-to-load-antd-components-without-loading-the-whole-library/
+### singlespa
+* https://github.com/CanopyTax/single-spa.js.org/blob/master/docs/starting-from-scratch.md
+* https://github.com/alocke12992/single-spa-starting-from-scratch
+* https://github.com/me-12/single-spa-portal-example.git
